@@ -27,3 +27,5 @@ The images are processed using OpenCv and the necessary features are extracted a
 ## Flask App
 
 This section illustrates the Web Application with which the Pipeline Model is integrated it allows the user to simply upload an image and gives back the prediction.
+
+![gc1](https://user-images.githubusercontent.com/32523883/96705409-e0b50c00-13b2-11eb-8a57-69b4b86805c7.png)
