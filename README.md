@@ -1,6 +1,8 @@
 # Gender-Classification-App
 The Gender Classification App is a web application developed on Flask and is integrated with a Pipeline Machine Learning Model.The images are processed using OpenCv and the necessary features are extracted and optimized using Principal Component Analysis.The Eigen images are then further used to train the Machine Learning model an SVM algorithm is used for the same.Lastly,the model is tuned with Grid Search Method for the best hyperparameters.
 
+![002](https://user-images.githubusercontent.com/32523883/96698958-574e0b80-13ab-11eb-9fa3-880cb74ca225.PNG)
+
 ## Table of Contents
 
 ### 1)Data Processing
