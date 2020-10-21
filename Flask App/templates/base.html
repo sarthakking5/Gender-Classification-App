@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>SkAI</title>
+</head>
+<body>
+  <div class='container'>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="{{url_for('index')}}">SkAI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+           <div class="navbar-nav">
+             <a class="nav-link" href="{{url_for('index')}}">Home <span class="sr-only">(current)</span></a>
+             <a class="nav-link" href="{{url_for('faceapp')}}">Face App</a>
+      
+            </div>
+        </div>
+    </nav>
+  </div>
+    {% block bodyblock  %}
+    
+  
+        
+
+    {% endblock  %} 
+
+<footer class="footer">
+    <div class="container">
+        <img src="{{user_image}}" alt="">
+
+    </div>
+
+
+
+</footer>
+<style>
+    .footer{
+        position: fixed;
+        left:0;
+        bottom:0;
+        width:100%;
+        background-color: #002f4d;
+        padding-top:40px;
+        padding-bottom:20px ;
+
+
+
+    };
+    .content{
+        color: #002f4d;
+
+    }
+</style>
+</body>
+</html>

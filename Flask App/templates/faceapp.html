@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+
+{% block bodyblock %}
+
+<div class="container">
+    <br>
+    <h3 class="content"><span style="color: #198b90;">Face Recognition</span> Application</h3>
+    <br>
+
+    <p class="content">Face is one of the most important biometric traits. By analyzing the face we get a lot of information such as age, gender, ethnicity, identity, expression, etc.A gender classification system uses face of a person from a given image to tell the gender (male/female) of the given person. A successful gender classification approach can boost the performance of many other applications including face recognition and smart human-computer interface.</p>
+    
+    <br>
+    <img src="{{url_for('static',filename='images/002.PNG')}}" width="500" height="200">
+    <br>
+    <div align="center">
+        <a href="{{url_for('gender')}}" class="btn btn-outline primary"><span style="color: #198b90 ; ">Try Now</span> </a>
+    </div>  
+</div>
+
+{% endblock  %}
